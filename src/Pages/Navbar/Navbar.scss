@@ -1,0 +1,28 @@
+@import "./../../variable.scss";
+.title {
+    @include titless(25px, #eee5eb);
+    position: relative;
+    left: 23px;
+    top: -10px;
+}
+
+.ava {
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: -20px;
+}
+
+.wel {
+    @include titless(16px, #eee5eb);
+    position: relative;
+    top: 20px;
+}
+
+.bal {
+    @include titless(10px, #65688a);
+    font-weight: 500;
+    position: relative;
+    top: 35px;
+    left: -150px;
+}

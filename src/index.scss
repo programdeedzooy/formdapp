@@ -1,0 +1,43 @@
+@import "./variable.scss";
+* {
+    margin: 0px;
+}
+
+.backgroundd {
+    width: 100vw;
+    height: 100vh;
+    background-color: #b3bad1;
+}
+
+.back {
+    width: 90vw;
+    height: 94vh;
+    background-color: #151834;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    border-radius: 20px;
+}
+
+.Header {
+    @include HF(15%);
+    top: 6px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.body {
+    width: 98.9%;
+    margin: auto;
+    height: 73%;
+    position: relative;
+    top: 2%;
+    background-color: #151834;
+}
+
+.Footer {
+    @include HF(8%);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    top: 3%;
+}
