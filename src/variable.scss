@@ -14,8 +14,11 @@
 }
 
 @mixin inboxss {
-    width: 45%;
-    height: 98%;
-    background-color: green;
+    width: 25%;
+    height: 75%;
+    background-color: #2c325c;
     margin: auto;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: auto 50px;
 }

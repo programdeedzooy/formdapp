@@ -1,0 +1,16 @@
+.aa {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.but {
+  background-color: #1d2040;
+  border-radius: 20px;
+  border: 2px solid blue;
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  color: #fefefe;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}/*# sourceMappingURL=components.css.map */
