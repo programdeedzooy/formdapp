@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import Button from "../../Components/Button/Button";
+import BButton from "../../Components/Button/Button";
 import formm from "../../Assets/formm.png";
 import donate from "../../Assets/donate.jpeg";
 function Intro() {
@@ -22,7 +22,7 @@ function Intro() {
       <div className="centerr">
         <img className="imgg" src={vall.img} alt="" />
       </div>
-      <Button but={vall} />
+      <BButton but={vall} />
     </div>
   ));
 

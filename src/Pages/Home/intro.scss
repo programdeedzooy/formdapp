@@ -8,7 +8,7 @@
 }
 
 .forbox {
-    @include inboxss();
+    @include inboxss(25%, 75%);
 }
 
 .centerr {

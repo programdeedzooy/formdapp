@@ -1,0 +1,20 @@
+@import "../../variable.scss";
+.formbox {
+    @include inboxss(100%, 100%);
+}
+
+.spa {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    left: 10%;
+}
+
+.formali {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}

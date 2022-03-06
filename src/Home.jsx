@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Pages/Navbar/Navbar";
 import Intro from "./Pages/Home/Intro";
+import FarmForm from "./Pages/Farmers/FarmForm";
 function Home() {
   return (
     <>
@@ -8,7 +9,8 @@ function Home() {
         <Navbar />
       </div>
       <div className="body">
-        <Intro />
+        {/* <Intro /> */}
+        <FarmForm />
       </div>
       <div className="Footer"></div>
     </>

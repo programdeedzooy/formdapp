@@ -1,5 +1,5 @@
 import "./components.css";
-export default function Button(props) {
+export default function BButton(props) {
   console.log(`props`, props);
   const { but } = props;
   return (
